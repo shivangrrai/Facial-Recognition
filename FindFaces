@@ -1,0 +1,6 @@
+from PIL import Image, ImageDraw
+from IPython.display import display
+
+# The program we will be finding faces on the example below
+pil_im = Image.open('example.jpg')
+display(pil_im)
